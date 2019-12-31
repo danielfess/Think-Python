@@ -80,4 +80,6 @@ def flower(t,n,length):
 bob = turtle.Turtle()
 flower(bob,7,200)
 
-#Unfinished - see Exercise 4-2 in book and according solution online
+#There are two key pieces of information in this problem: the angle subtended by a petal, and the number of distinct petals.
+#Coding the problem in a clean way while taking into account both these variables is a little awkward.
+#See Exercise 4-2 in book and according solution online for one way to deal with this.
