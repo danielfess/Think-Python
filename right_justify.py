@@ -4,4 +4,4 @@ def right_justify(s):
     newstr = spaces + s
     print(newstr)
 
-right_justify('free willy')
+right_justify('free')
