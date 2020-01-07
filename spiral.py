@@ -1,6 +1,8 @@
 import turtle
 
-#unfinished - confused by code on website with choices of a, b, length, dtheta.
+#unfinished - choices in code on website of a, b, length, dtheta are unclear to me.
+#Questions: What is the equation of the spiral that is being drawn?
+#           From what calculation does the value of dtheta come?
 
 def arch_spiral(t,a,b):
     """Draws the archimedean spiral r = a + b theta, with theta in degrees.
