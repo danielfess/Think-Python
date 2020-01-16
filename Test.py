@@ -1,23 +1,23 @@
-def print_spam():
-    print('spam')
+prefixes = 'JKLMNOPQ'
+suffix = 'ack'
 
-def do_twice(f,s):
-    f(s)
-    f(s)
+for letter in prefixes:
+    if letter in 'OQ':
+        print(letter + 'u' + suffix)
+    else:
+        print(letter + suffix)
 
-def print_twice(bruce):
-    print(bruce)
-    print(bruce)
+fruit = 'banana'
 
-print('do_twice + print_twice:')
-do_twice(print_twice,'spam')
+def in_both(word1,word2):
+    for letter in word1:
+        if letter in word2:
+            print(letter)
 
-def do_four(f,s):
-    do_twice(f,s)
-    do_twice(f,s)
+print(' banana' == 'banana')
+print('banana' == 'banana')
 
-print('do_four:')
-do_four(print,'spam')
-
-print('do_twice type:')
-print(type(do_twice(print,'spam')))
+new_fruit = fruit.upper()
+print(new_fruit)
+old_fruit = new_fruit.lower()
+print(old_fruit)
