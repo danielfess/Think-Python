@@ -21,3 +21,9 @@ new_fruit = fruit.upper()
 print(new_fruit)
 old_fruit = new_fruit.lower()
 print(old_fruit)
+
+cheeses = ['cheddar','swiss','gruyere']
+for cheese in cheeses:
+    cheese = cheese + '0'
+    print(cheese)
+print(cheeses)
