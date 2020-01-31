@@ -27,3 +27,15 @@ for cheese in cheeses:
     cheese = cheese + '0'
     print(cheese)
 print(cheeses)
+print(cheeses.append('brie'))
+print(cheeses)
+
+s = ' '.join(cheeses)
+t = ''.join(cheeses)
+print(s)
+print(t)
+
+t = ['a','b','b']
+t.remove('b')
+t.remove('b')
+print(t) 
