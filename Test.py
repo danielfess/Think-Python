@@ -35,7 +35,43 @@ t = ''.join(cheeses)
 print(s)
 print(t)
 
-t = ['a','b','b']
+t = ['a','b','c','b']
 t.remove('b')
+print(t)
 t.remove('b')
-print(t) 
+print(t)
+
+def example3():
+    t = []
+
+example3()
+print(t)
+
+def example4(t):
+    t = []
+
+example4(t)
+print(t)
+
+s = [1,2,3]
+
+def example5():
+    global t
+    t = []
+    if 1 in s:
+        s.append(4)
+        print('list s')
+        print(s)
+
+example5()
+print(t)
+
+def example6(t):
+    t += [4]
+    s.append(4)
+#Note: If I write s += [4], we get an error since local variable s doesn't
+#exist - though s.append(4) works, since append acts on the global s.
+
+example6(t)
+print(t)
+print(s)
