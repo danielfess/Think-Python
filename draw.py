@@ -16,6 +16,7 @@ def draw(t,length,n):
     t.lt(angle)
     t.bk(length*n)
 
-bob = turtle.Turtle()
-draw(bob,20,5)
-turtle.mainloop()
+if __name__ == '__main__':
+	bob = turtle.Turtle()
+	draw(bob,20,5)
+	turtle.mainloop()

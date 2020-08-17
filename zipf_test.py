@@ -1,0 +1,10 @@
+instantaneous
+fruit
+exemplary
+example
+apple
+banana
+instantaneous
+fruit
+apple
+apple

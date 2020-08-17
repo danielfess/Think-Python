@@ -1,0 +1,1 @@
+hello, this is a test for the function sed.\n peaches are tastier than bananas,

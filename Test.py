@@ -75,3 +75,24 @@ def example6(t):
 example6(t)
 print(t)
 print(s)
+
+cmd = 'ls -l'
+fp = os.Popen(cmd)
+print(fp)
+res = fp.read()
+print('res')
+print(res)
+stat = fp.close()
+print('stat')
+print(stat)
+
+filename = 'ackermann.py'
+cmd = 'md5sum ' + filename
+fp = os.Popen(cmd)
+print(fp)
+res = fp.read()
+print(res)
+stat = fp.close()
+print(stat)
+
+#The commands ls and md5sum fail.
