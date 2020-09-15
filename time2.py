@@ -38,6 +38,9 @@ class Time:
 
 		return self.seconds >= other.seconds
 
+	def __lt__(self,other):
+		return self.seconds < other.seconds
+
 	def increment(self,incr):
 		"""Advances the given time object by the given number of seconds.
 
@@ -86,3 +89,6 @@ if __name__ == '__main__':
 	print(t6)
 	print(t7)
 	print(t8)
+	print(t1)
+	print(t2)
+	print(t1 < t2)
